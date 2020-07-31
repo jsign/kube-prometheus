@@ -1,0 +1,8 @@
+apiVersion: v1
+data:
+  prometheus-additional-textile.yaml: LSBqb2JfbmFtZTogInBvdy1wcm9kaHViIgogIHNjcmFwZV9pbnRlcnZhbDogNXMKICBzdGF0aWNfY29uZmlnczoKICAtIHRhcmdldHM6IFsicG93ZXJnYXRlLnByb2QtaHViLnN2Yy5jbHVzdGVyLmxvY2FsOjg4ODgiXQo=
+kind: Secret
+metadata:
+  creationTimestamp: null
+  name: additional-scrape-configs
+  namespace: monitoring

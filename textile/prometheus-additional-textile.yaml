@@ -1,0 +1,4 @@
+- job_name: "pow-prodhub"
+  scrape_interval: 5s
+  static_configs:
+  - targets: ["powergate.prod-hub.svc.cluster.local:8888"]
